@@ -20,7 +20,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.3 }}
         className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'
       >
-          Hi! I'm Abhiraj Singh <Image src={assets.hand_icon} alt='' className='w-6' />
+          Hi! I'm Abhiraj <Image src={assets.hand_icon} alt='' className='w-6' />
       </motion.h3>
 
       <motion.h1 
@@ -29,7 +29,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'
       >
-       Full-Stack Developer & Software Engineer
+       Full-Stack Developer
       </motion.h1>
 
       <motion.p 
@@ -38,7 +38,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className='max-w-2xl mx-auto font-ovo'
       >
-        I am a Software Engineer focused on building high-performance applications using the MERN stack, Next.js, and Java
+        I am a Full Stack Developer focused on building high-performance applications using the MERN stack, Next.js, and Java
       </motion.p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>

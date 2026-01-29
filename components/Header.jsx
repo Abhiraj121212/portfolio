@@ -38,7 +38,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className='max-w-2xl mx-auto font-ovo'
       >
-        I am a Full Stack Developer focused on building high-performance applications using the MERN stack, Next.js, and Java
+       I build scalable applications that turn complex requirements into elegant solutions. Whether architecting real-time communication systems, optimizing data retrieval, or creating analytics-driven features, I focus on engineering fundamentals and measurable impact.
       </motion.p>
 
       <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
@@ -53,7 +53,7 @@ const Header = () => {
           contact me <Image src={assets.right_arrow_white} alt='' className='w-4' />
         </motion.a>
 
-        {/* CORRECTED RESUME BUTTON */}
+        
         <motion.a 
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}

@@ -102,23 +102,23 @@ export const workData = [
 export const serviceData = [
     { 
         icon: assets.code_icon, 
-        title: 'Full-Stack Development', 
-        description: 'Building responsive, mobile-first web applications using the MERN stack and Next.js, ensuring 95% visual consistency across devices.' 
+        title: 'Full-Stack Development & Data Integration', 
+        description: 'Building responsive web applications with integrated data pipelines using the MERN stack, and modern databases. Ensuring seamless data flow from backend to frontend with 95% cross-device consistency.' 
     },
     { 
         icon: assets.project_icon, 
-        title: 'Real-Time Systems', 
-        description: 'Engineering low-latency messaging pipelines and live presence systems using Socket.io, achieving sub-150ms synchronization.' 
+        title: 'Real-Time Data Processing & Pipelines', 
+        description: 'Engineering low-latency data synchronization systems and messaging pipelines using Socket.io and Node.js. Architecting solutions for real-time data ingestion, processing, and delivery with sub-150ms latency.' 
     },
     { 
         icon: assets.graphics_icon, 
-        title: 'Backend & API Design', 
-        description: 'Architecting scalable RESTful APIs with Node.js and Express, integrated with secure JWT-based authentication.' 
+        title: 'Backend Engineering & API Development', 
+        description: 'Designing scalable RESTful APIs with Node.js and Express for data-intensive applications. Implementing secure authentication, efficient data retrieval patterns, and integration with cloud service.' 
     },
     { 
         icon: assets.ui_icon, 
-        title: 'Database Optimization', 
-        description: 'Enhancing data retrieval efficiency by 30% through strategic MongoDB schema indexing and denormalized architecture.' 
+        title: 'Database Design & Performance Optimization', 
+        description: 'Optimizing data storage and retrieval through strategic MongoDB schema design, indexing strategies, and denormalized architectures. Achieving 30%+ improvement in query performance for large-scale datasets.' 
     },
 ]
 

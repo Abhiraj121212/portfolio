@@ -18,8 +18,7 @@ const About = ({ isDarkMode }) => {
         
         <div className='flex-1'>
           <p className='mb-10 max-w-2xl font-ovo'>
-            I am a Full Stack Developer with a specialized focus on building scalable, full-stack applications. 
-            I specialize in architecting real-time communication pipelines and optimizing backend retrieval efficiency. [cite: 17, 19, 23]
+          I am a Full-Stack Developer with strong engineering fundamentals and a focus on building data-driven applications. I specialize in architecting scalable backend systems, optimizing database performance, and implementing real-time data synchronization - combining software engineering best practices with analytical problem-solving
           </p>
 
           <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>

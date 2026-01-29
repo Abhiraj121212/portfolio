@@ -78,8 +78,8 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: 'Streamity - Real-Time Communication & Data Streaming Platform',
+        description: 'Full-stack platform handling real-time data streams for global messaging and video communication',
         bgImage: '/work-1.png',
     },
     {

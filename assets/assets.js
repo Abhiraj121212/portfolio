@@ -81,22 +81,23 @@ export const workData = [
         title: 'Streamity - Real-Time Communication & Data Streaming Platform',
         description: 'Full-stack platform handling real-time data streams for global messaging and video communication',
         bgImage: '/work-1.png',
+        liveLink: 'https://streamity.onrender.com/',
+        githubLink: 'https://github.com/Abhiraj121212/Streamity'
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Real-Time Weather Data Visualization Platform',
+        description: 'Interactive weather application with live API integration and data visualization for temperature, humidity, and forecast metrics',
         bgImage: '/work-2.png',
+        liveLink: 'https://weather-app-tau-two-76.vercel.app/', // Add your link
+        githubLink: 'https://github.com/Abhiraj121212/weather-app' // Add your link
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'VocalizeJS - Audio Data Processing & Speech Synthesis Engine',
+        description: 'Browser-based speech synthesis application processing text data into audio streams with customizable voice parameters and real-time audio rendering',
         bgImage: '/work-3.png',
-    },
-    {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+        liveLink: 'https://vocalize-js.vercel.app/',
+        githubLink: 'https://github.com/Abhiraj121212/VocalizeJS'
+    }
 ]
 
 export const serviceData = [

@@ -85,11 +85,11 @@ export const workData = [
         githubLink: 'https://github.com/Abhiraj121212/Streamity'
     },
     {
-        title: 'Real-Time Weather Data Visualization Platform',
-        description: 'Interactive weather application with live API integration and data visualization for temperature, humidity, and forecast metrics',
+        title: 'Prescripto - Doctor Appointment Booking Platform',
+        description: 'Full-stack platform for browsing doctors, booking appointments, and managing patients with a dedicated admin panel',
         bgImage: '/work-2.png',
-        liveLink: 'https://weather-app-tau-two-76.vercel.app/', // Add your link
-        githubLink: 'https://github.com/Abhiraj121212/weather-app' // Add your link
+        liveLink: ' https://prescripto-sepia-five.vercel.app', 
+        githubLink: 'https://github.com/Abhiraj121212/prescripto' 
     },
     {
         title: 'VocalizeJS - Audio Data Processing & Speech Synthesis Engine',

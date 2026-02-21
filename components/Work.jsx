@@ -24,10 +24,11 @@ const Work = () => {
             className='aspect-video bg-no-repeat bg-cover bg-center rounded-lg relative group cursor-pointer'
             style={{ backgroundImage: `url(${project.bgImage})` }}
           >
-            {/* The White Box: Changed to w-max and added max-w-[90%] */}
-            <div className='bg-white w-max max-w-[90%] rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-2 px-3 sm:py-3 sm:px-5 flex items-center justify-between gap-4 duration-500 group-hover:bottom-7 shadow-xl'>
-              <div>
-                <h2 className='font-semibold text-sm sm:text-base whitespace-nowrap'>{project.title}</h2>
+            {/* FIXED: changed w-max to w-[90%] so box doesn't overflow on mobile */}
+            <div className='bg-white w-[90%] rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-2 px-3 sm:py-3 sm:px-5 flex items-center justify-between gap-4 duration-500 group-hover:bottom-7 shadow-xl'>
+              <div className='min-w-0'>
+                {/* FIXED: removed whitespace-nowrap, added break-words so title wraps on mobile */}
+                <h2 className='font-semibold text-sm sm:text-base break-words'>{project.title}</h2>
                 <p className='text-[10px] sm:text-sm text-gray-700 leading-tight hidden sm:block'>{project.description}</p>
                 
                 <div className='flex gap-2 mt-1.5 sm:mt-2'>

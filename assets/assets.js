@@ -92,11 +92,11 @@ export const workData = [
         githubLink: 'https://github.com/Abhiraj121212/prescripto' 
     },
     {
-        title: 'VocalizeJS - Audio Data Processing & Speech Synthesis Engine',
-        description: 'Browser-based speech synthesis application processing text data into audio streams with customizable voice parameters and real-time audio rendering',
+        title: 'SyncHire — Collaborative Technical Interview Platform',
+        description: 'A full-stack remote technical interview platform with a VSCode-powered collaborative editor',
         bgImage: '/work-3.png',
-        liveLink: 'https://vocalize-js.vercel.app/',
-        githubLink: 'https://github.com/Abhiraj121212/VocalizeJS'
+        liveLink: 'https://sync-hire.vercel.app/',
+        githubLink: 'https://github.com/Abhiraj121212/SyncHire'
     }
 ]
 
